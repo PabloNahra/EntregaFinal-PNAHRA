@@ -1,6 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0; }
@@ -53,10 +58,17 @@
   min-height: 100vh;
   padding: 5%; }
 
+.main-inicio {
+  background-image: url("https://media.istockphoto.com/id/1401571949/es/foto/el-patr%C3%B3n-de-punto-sin-costuras-en-forma-de-zigzags-se-hace-ganchillo-con-hilos-multicolores.jpg?s=612x612&w=0&k=20&c=SkeGSzyx_zLDCUxdXbUACpUO-FM1jDsYqUh6ZeVf1Ms=");
+  background-size: cover;
+  font-family: "Pacifico", cursive;
+  font-size: xx-large;
+  color: #fcfbfb; }
+
 .inicio a {
-  color: #ff086b;
+  color: #fcfbfb;
   text-decoration: none;
-  font-family: 'Delicious Handrawn', cursive, 'Gill Sans', 'Gill Sans MT';
+  font-family: "Pacifico", cursive;
   font-size: larger;
   padding: 3%; }
 

@@ -2,7 +2,6 @@
 .main-principal{
     /* background-image: url('../images/fondo-lunares.jfif'); */
     background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
-    
     font-family: 'Alkatra', cursive, 'Gill Sans', 'Gill Sans MT';
     font-size: x-large;
     color: $color-rosa-letras;
@@ -11,15 +10,27 @@
     padding: 5%;
  }
 
+ .main-inicio{
+   // background-image: url('https://images.unsplash.com/photo-1589912187345-e6f884f958af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80');
+   background-image: url('https://media.istockphoto.com/id/1401571949/es/foto/el-patr%C3%B3n-de-punto-sin-costuras-en-forma-de-zigzags-se-hace-ganchillo-con-hilos-multicolores.jpg?s=612x612&w=0&k=20&c=SkeGSzyx_zLDCUxdXbUACpUO-FM1jDsYqUh6ZeVf1Ms=');
+   background-size: cover;
+   // font-family: 'Alkatra', cursive, 'Gill Sans', 'Gill Sans MT';
+   font-family: $negrita1;
+   font-size: xx-large;
+   color: $color-blanco-letras;
+ }
+ 
+
  .inicio{
     a{
-    color: $color-rosa-letras;
+    color: $color-blanco-letras;
     text-decoration: none;
-    font-family: 'Delicious Handrawn', cursive, 'Gill Sans', 'Gill Sans MT';
+    font-family: $negrita1;
     font-size: larger;
     padding: 3%;
     }
 }
+
 
 .banner-principal{
     img{
