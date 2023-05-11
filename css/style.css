@@ -12,8 +12,10 @@
     font-size: x-large;
     font-weight: bold;
     font-family: 'Delicious Handrawn', cursive, 'Gill Sans', 'Gill Sans MT';
-    margin-right: 10px;
-    margin-left: 10px; }
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
 
 .header-centrado {
   display: flex;
@@ -26,6 +28,9 @@
   flex-wrap: inherit;
   align-items: center;
   justify-content: center; }
+  .logo-principal img {
+    max-width: 100px;
+    max-height: 100px; }
 
 .lista-pages {
   justify-content: flex-end; }
@@ -45,13 +50,15 @@
   font-size: x-large;
   color: #ff086b;
   text-align: center;
-  min-height: 100vh; }
+  min-height: 100vh;
+  padding: 5%; }
 
 .inicio a {
   color: #ff086b;
   text-decoration: none;
   font-family: 'Delicious Handrawn', cursive, 'Gill Sans', 'Gill Sans MT';
-  font-size: larger; }
+  font-size: larger;
+  padding: 3%; }
 
 .banner-principal img {
   width: 60vw;
@@ -160,10 +167,14 @@
 /* FIXED ICON SOCIAL */
 .btn-flotante {
   position: fixed;
-  bottom: 60px;
-  right: 50px;
-  max-height: 10vh;
-  max-width: 10vw;
+  bottom: 100px;
+  right: 100px;
+  max-height: 5vh;
+  max-width: 5vw;
   transition: all 300ms ease 0ms;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   z-index: 99; }
+  .btn-flotante img {
+    width: 64px;
+    height: 64px;
+    margin: 5vh; }
