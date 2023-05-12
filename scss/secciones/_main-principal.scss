@@ -7,45 +7,69 @@
     color: $color-rosa-letras;
     text-align: center;
     min-height: 100vh;
-    padding: 5%;
+    padding: 0%;
  }
 
  .main-inicio{
    // background-image: url('https://images.unsplash.com/photo-1589912187345-e6f884f958af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80');
-   background-image: url('https://media.istockphoto.com/id/1401571949/es/foto/el-patr%C3%B3n-de-punto-sin-costuras-en-forma-de-zigzags-se-hace-ganchillo-con-hilos-multicolores.jpg?s=612x612&w=0&k=20&c=SkeGSzyx_zLDCUxdXbUACpUO-FM1jDsYqUh6ZeVf1Ms=');
-   background-size: cover;
+   // background-image: url('https://media.istockphoto.com/id/1401571949/es/foto/el-patr%C3%B3n-de-punto-sin-costuras-en-forma-de-zigzags-se-hace-ganchillo-con-hilos-multicolores.jpg?s=612x612&w=0&k=20&c=SkeGSzyx_zLDCUxdXbUACpUO-FM1jDsYqUh6ZeVf1Ms=');
+   // background-size: cover;
+   // opacity: 0.7;
    // font-family: 'Alkatra', cursive, 'Gill Sans', 'Gill Sans MT';
    font-family: $negrita1;
    font-size: xx-large;
    color: $color-blanco-letras;
+   .back{
+      position: relative;
+      overflow: hidden;
+      .img-back{
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: auto;
+         opacity: 0.6;
+      };
+      .inicio{
+         position: relative;
+         overflow: hidden;
+         padding: 5%;
+         color: $color-blanco-letras;
+          a{
+          color: $color-blanco-letras;
+          text-decoration: none;
+          font-family: $negrita1;
+          font-size: larger;
+          padding: 3%;
+          opacity: 1;
+          }
+      };
+      .banner-principal{
+         position: relative;
+         overflow: hidden;
+      .main-fotos{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row;
+         justify-content: space-evenly;
+         img{
+            width: 60vw;
+            height: 30vh;
+            max-width: 250px;
+            max-height: 250px;
+            margin: 5vh;
+         }
+      }
+      a {
+         font-family: $negrita1;
+         font-size: xx-large;
+         color: $color-blanco-letras;
+      }
+      }
+   }
  }
+
+
  
 
- .inicio{
-    a{
-    color: $color-blanco-letras;
-    text-decoration: none;
-    font-family: $negrita1;
-    font-size: larger;
-    padding: 3%;
-    }
-}
-
-
-.banner-principal{
-    img{
-        width: 60vw;
-        height: 30vh;
-        max-width: 250px;
-        max-height: 250px;
-        margin: 5vh;
-     }
-}
-
- .main-fotos{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
- }
 

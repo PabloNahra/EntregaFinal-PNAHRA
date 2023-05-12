@@ -56,34 +56,52 @@
   color: #ff086b;
   text-align: center;
   min-height: 100vh;
-  padding: 5%; }
+  padding: 0%; }
 
 .main-inicio {
-  background-image: url("https://media.istockphoto.com/id/1401571949/es/foto/el-patr%C3%B3n-de-punto-sin-costuras-en-forma-de-zigzags-se-hace-ganchillo-con-hilos-multicolores.jpg?s=612x612&w=0&k=20&c=SkeGSzyx_zLDCUxdXbUACpUO-FM1jDsYqUh6ZeVf1Ms=");
-  background-size: cover;
   font-family: "Pacifico", cursive;
   font-size: xx-large;
   color: #fcfbfb; }
-
-.inicio a {
-  color: #fcfbfb;
-  text-decoration: none;
-  font-family: "Pacifico", cursive;
-  font-size: larger;
-  padding: 3%; }
-
-.banner-principal img {
-  width: 60vw;
-  height: 30vh;
-  max-width: 250px;
-  max-height: 250px;
-  margin: 5vh; }
-
-.main-fotos {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly; }
+  .main-inicio .back {
+    position: relative;
+    overflow: hidden; }
+    .main-inicio .back .img-back {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: auto;
+      opacity: 0.6; }
+    .main-inicio .back .inicio {
+      position: relative;
+      overflow: hidden;
+      padding: 5%;
+      color: #fcfbfb; }
+      .main-inicio .back .inicio a {
+        color: #fcfbfb;
+        text-decoration: none;
+        font-family: "Pacifico", cursive;
+        font-size: larger;
+        padding: 3%;
+        opacity: 1; }
+    .main-inicio .back .banner-principal {
+      position: relative;
+      overflow: hidden; }
+      .main-inicio .back .banner-principal .main-fotos {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly; }
+        .main-inicio .back .banner-principal .main-fotos img {
+          width: 60vw;
+          height: 30vh;
+          max-width: 250px;
+          max-height: 250px;
+          margin: 5vh; }
+      .main-inicio .back .banner-principal a {
+        font-family: "Pacifico", cursive;
+        font-size: xx-large;
+        color: #fcfbfb; }
 
 .main-nosotras {
   min-width: 100%; }
