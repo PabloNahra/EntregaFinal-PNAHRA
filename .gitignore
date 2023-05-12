@@ -1,5 +1,5 @@
 # ignore diseños del wireframe
-wireframe/
+# wireframe/
 
 # ignore sass
 node_modules/
