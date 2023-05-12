@@ -1,13 +1,13 @@
 /* MAIN */
 .main-principal{
-    /* background-image: url('../images/fondo-lunares.jfif'); */
     background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
     font-family: 'Alkatra', cursive, 'Gill Sans', 'Gill Sans MT';
     font-size: x-large;
     color: $color-rosa-letras;
     text-align: center;
-    min-height: 100vh;
+    //min-height: 100vh;
     padding: 0%;
+    min-width: 100%;
  }
 
  .main-inicio{
